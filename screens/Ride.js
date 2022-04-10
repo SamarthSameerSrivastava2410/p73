@@ -174,14 +174,14 @@ export default class RideScreen extends Component {
         if (!doc.data().under_maintenance) {
           //if the bike is available then transaction type will be rented otherwise it will be return
 
-       /*transactionType = doc.data().is_bike_available ?
-        "rented" : "return";*/
+        transactionType = doc.data().is_bike_available ?
+        "rented" : "return";
 
         /*transactionType = doc.data().is_bike_available :
         "rented" ? "return";*/
 
-        transactionType === doc.data().is_bike_available ?
-        "rented" : "return";
+        /*transactionType === doc.data().is_bike_available ?
+        "rented" : "return";*/
 
         /*transactionType = doc.data().is_bike_available 
         "rented"  "return";*/
